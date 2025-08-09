@@ -1,105 +1,64 @@
 body {
-
     font-family: Arial, sans-serif;
-
     text-align: center;
-
     background-color: #eef;
-
 }
-
-
 
 #game-board {
-
     display: grid;
-
-    grid-template-columns: repeat(10, 40px);
-
-    grid-template-rows: repeat(10, 40px);
-
+    grid-template-columns: repeat(20, 40px);
+    grid-template-rows: repeat(20, 40px);
     gap: 2px;
-
     margin: 20px auto;
-
     width: fit-content;
-
 }
-
-
 
 .cell {
-
     width: 40px;
-
     height: 40px;
-
     background-color: #ccc;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    font-size: 18px;
-
+    background-size: cover;
+    background-position: center;
 }
-
-
 
 .player {
-
-    background-color: #00f;
-
-    color: #fff;
-
+    background-image: url('RandomFileName_54fd1b4e-8a96-4b1c-9009-4364580a636b.png');
 }
-
-
 
 .snow {
-
-    background-color: #fff;
-
+    background-image: url('RandomFileName_214d8b5b-c8df-4059-90a4-e43ee188e87b.png');
 }
 
-
+.cleared {
+    background-color: #ddd;
+}
 
 .coal {
-
-    background-color: #444;
-
-    color: #fff;
-
+    background-image: url('RandomFileName_a0616b92-85e9-4cfa-b0d0-a9ae3bc3b836.png');
 }
-
-
 
 .fuel {
-
-    background-color: #f90;
-
-    color: #fff;
-
+    background-image: url('RandomFileName_f86b1bcd-0d17-4480-a257-540d1d9bcd4c.png');
 }
-
-
 
 .survivor {
-
-    background-color: #0f0;
-
-    color: #000;
-
+    background-image: url('RandomFileName_43917dfe-62e8-46f0-8955-1dbd5b360cb9.png');
 }
 
+.monster {
+    background-image: url('RandomFileName_82147126-4a97-49b6-baca-5fa7c9cf67e6.png');
+}
 
+.fire {
+    background-image: url('RandomFileName_626f282b-a6a9-46a5-90a9-0f66cb243ccb.png');
+}
 
-.beast {
+.rocket {
+    background-image: url('RandomFileName_ae5b2aec-f971-4cb6-9f94-a3b8ad1c8b20.png');
+}
 
-    background-color: #f00;
-
-    color: #fff;
-
+#controls button {
+    font-size: 24px;
+    margin: 5px;
+    padding: 10px;
 }
