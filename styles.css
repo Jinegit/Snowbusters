@@ -1,0 +1,105 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+    background-color: #eef;
+
+}
+
+
+
+#game-board {
+
+    display: grid;
+
+    grid-template-columns: repeat(10, 40px);
+
+    grid-template-rows: repeat(10, 40px);
+
+    gap: 2px;
+
+    margin: 20px auto;
+
+    width: fit-content;
+
+}
+
+
+
+.cell {
+
+    width: 40px;
+
+    height: 40px;
+
+    background-color: #ccc;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 18px;
+
+}
+
+
+
+.player {
+
+    background-color: #00f;
+
+    color: #fff;
+
+}
+
+
+
+.snow {
+
+    background-color: #fff;
+
+}
+
+
+
+.coal {
+
+    background-color: #444;
+
+    color: #fff;
+
+}
+
+
+
+.fuel {
+
+    background-color: #f90;
+
+    color: #fff;
+
+}
+
+
+
+.survivor {
+
+    background-color: #0f0;
+
+    color: #000;
+
+}
+
+
+
+.beast {
+
+    background-color: #f00;
+
+    color: #fff;
+
+}
